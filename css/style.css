@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+a {
+    color: inherit; /* inherit 부모 요소에 적용된 clolr 적용 */
+}
+
+li::after, #contents::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+header { 
+    background: #ffa69e;
+    color: #fff;
+}
+    .header_in{
+        width: 1200px;
+        height: 100px;
+        margin: auto;
+    }
+        h1 { 
+            float: left; 
+            line-height: 100px;
+        }
+
+        nav {
+            position: absolute;
+            left: 50%;
+            margin-left: -250px;
+        }
+        nav ul {}
+        nav li { float: left; }
+        nav a { 
+            display: block;
+            margin: 0 15px;
+            font-size: 16px;
+            line-height: 100px;
+        }
+        nav button {
+            display: none;
+        }
+        .hamBars {
+            display: none;
+        }
+
+        .sign {
+            float: right;
+            line-height: 100px;
+        }
+
+#visual { 
+    height: 500px;
+    background: #faf3dd;}
+
+#contents {
+    width: 1200px;
+    margin: auto;
+}
+    section {
+        float: left;
+        width: 25%;
+        height: 300px;
+    }
+        .con1 {background: #feb6b9;}
+        .con2 {background: #fae3d9;}
+        .con3 {background: #f9dcc4;}
+        .con4 {background: #fec89a;}
+
+footer { background: #aed9e0; }
+
+.footer_in {
+    width: 1200px;
+    margin: auto;
+    height: 50px;
+}
